@@ -55,7 +55,7 @@ Create an IAM OIDC identity provider for your cluster with the following command
 
 To create your Amazon EBS CSI plugin IAM role with eksctl
 
-    Create an IAM role and attach the required AWS managed policy with the following command. Replace my-cluster with the name of your cluster. The command deploys an AWS CloudFormation stack that creates an IAM role and attaches the IAM policy to it. If your cluster is in the AWS GovCloud (US-East) or AWS GovCloud (US-West) AWS Regions, then replace arn:aws: with arn:aws-us-gov:.
+Create an IAM role and attach the required AWS managed policy with the following command. Replace my-cluster with the name of your cluster. The command deploys an AWS CloudFormation stack that creates an IAM role and attaches the IAM policy to it. If your cluster is in the AWS GovCloud (US-East) or AWS GovCloud (US-West) AWS Regions, then replace arn:aws: with arn:aws-us-gov:.
 
 ```
 eksctl create iamserviceaccount \
