@@ -5,6 +5,7 @@
 
 <div>
   <a href="https://raw.githubusercontent.com/h1zardian/cluster-provisioning-pipeline/main/docs/app-pipeline.png">
+  <img src="https://raw.githubusercontent.com/h1zardian/cluster-provisioning-pipeline/main/docs/app-pipeline.png">
   </a>
 </div>
 
