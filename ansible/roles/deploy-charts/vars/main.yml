@@ -1,11 +1,11 @@
 charts:
   - name: django
-    chart_path: /workspaces/cicd-pipeline-project/helm-charts/django-app
+    chart_path: /workspaces/cluster-provisioning-pipeline/helm-charts/django-app
     release_name: django-app
     namespace: default
-    values_path: /workspaces/cicd-pipeline-project/helm-charts/django-app/user-values.yaml
+    values_path: /workspaces/cluster-provisioning-pipeline/helm-charts/django-app/user-values.yaml
   - name: monitoring
-    chart_path: /workspaces/cicd-pipeline-project/helm-charts/monitoring-stack
+    chart_path: /workspaces/cluster-provisioning-pipeline/helm-charts/monitoring-stack
     release_name: monitoring-stack
     namespace: monitoring
-    values_path: /workspaces/cicd-pipeline-project/helm-charts/monitoring-stack/user-values.yaml
+    values_path: /workspaces/cluster-provisioning-pipeline/helm-charts/monitoring-stack/user-values.yaml
